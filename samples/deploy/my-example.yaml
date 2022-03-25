@@ -1,0 +1,7 @@
+apiVersion: v95.io/v1alpha1
+kind: Example
+metadata:
+  name: my-example
+spec:
+  exampleType: "controller"
+  programmingLanguage: "charp"

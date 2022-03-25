@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{12CB31DC-920E-4E24-A565-F3A6514A8AA6}"
+	ProjectSection(SolutionItems) = preProject
+		deploy\ExampleResource.yaml = deploy\ExampleResource.yaml
+		deploy\ExampleResource2.yaml = deploy\ExampleResource2.yaml
+		deploy\ExampleResourceDefinition.yaml = deploy\ExampleResourceDefinition.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C7529FC6-4954-403D-837F-3A246DA4A4CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KubeController", "src\KubeController\KubeController.csproj", "{D7F2A816-65FD-43BE-803B-36C206CCBAF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{5F30CFDE-DBC8-4CA6-8CEC-113A010CF44D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleKubeController", "samples\ExampleKubeController\ExampleKubeController.csproj", "{52C1D48A-C553-4288-A77D-324D6ECCA970}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7F2A816-65FD-43BE-803B-36C206CCBAF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F2A816-65FD-43BE-803B-36C206CCBAF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F2A816-65FD-43BE-803B-36C206CCBAF3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D7F2A816-65FD-43BE-803B-36C206CCBAF3}.Debug|x64.Build.0 = Debug|Any CPU
+		{D7F2A816-65FD-43BE-803B-36C206CCBAF3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D7F2A816-65FD-43BE-803B-36C206CCBAF3}.Debug|x86.Build.0 = Debug|Any CPU
+		{D7F2A816-65FD-43BE-803B-36C206CCBAF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F2A816-65FD-43BE-803B-36C206CCBAF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F2A816-65FD-43BE-803B-36C206CCBAF3}.Release|x64.ActiveCfg = Release|Any CPU
+		{D7F2A816-65FD-43BE-803B-36C206CCBAF3}.Release|x64.Build.0 = Release|Any CPU
+		{D7F2A816-65FD-43BE-803B-36C206CCBAF3}.Release|x86.ActiveCfg = Release|Any CPU
+		{D7F2A816-65FD-43BE-803B-36C206CCBAF3}.Release|x86.Build.0 = Release|Any CPU
+		{52C1D48A-C553-4288-A77D-324D6ECCA970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C1D48A-C553-4288-A77D-324D6ECCA970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C1D48A-C553-4288-A77D-324D6ECCA970}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{52C1D48A-C553-4288-A77D-324D6ECCA970}.Debug|x64.Build.0 = Debug|Any CPU
+		{52C1D48A-C553-4288-A77D-324D6ECCA970}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{52C1D48A-C553-4288-A77D-324D6ECCA970}.Debug|x86.Build.0 = Debug|Any CPU
+		{52C1D48A-C553-4288-A77D-324D6ECCA970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C1D48A-C553-4288-A77D-324D6ECCA970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52C1D48A-C553-4288-A77D-324D6ECCA970}.Release|x64.ActiveCfg = Release|Any CPU
+		{52C1D48A-C553-4288-A77D-324D6ECCA970}.Release|x64.Build.0 = Release|Any CPU
+		{52C1D48A-C553-4288-A77D-324D6ECCA970}.Release|x86.ActiveCfg = Release|Any CPU
+		{52C1D48A-C553-4288-A77D-324D6ECCA970}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35C5FDA8-0BF2-4F2C-BF3E-9A0B49C2A074}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7F2A816-65FD-43BE-803B-36C206CCBAF3} = {C7529FC6-4954-403D-837F-3A246DA4A4CD}
+		{52C1D48A-C553-4288-A77D-324D6ECCA970} = {5F30CFDE-DBC8-4CA6-8CEC-113A010CF44D}
+	EndGlobalSection
+EndGlobal
