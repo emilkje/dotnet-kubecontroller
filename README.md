@@ -10,7 +10,7 @@ This is a sample C# library for creating lightweight [controllers][controller] f
 
 ## Using this library
 
-Considering a custom resource definition that can be found in [samples/ExampleKubeController/deploy/example-crd.yaml][sample-crd], building the C# object is done by inheriting from the `CustomResourceDefinition` base class which mimics the structure of your CRD. In addition you have to register a handler for the events associated with the custom resource
+Considering a custom resource definition that can be found in [example-crd.yaml][example-crd], building the C# object is done by inheriting from the `CustomResourceDefinition` base class which mimics the structure of your CRD. In addition you have to register a handler for the events associated with the custom resource
 
 ```csharp
 public class Example : CustomResourceDefinition
