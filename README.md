@@ -68,7 +68,7 @@ Prerequisites:
 To run the sample, you first need to deploy the CRD (the sample uses the `default` namespace), then start the console application:
 
 ```sh
-kubectl apply -f samples/deploy/example-crd.yaml
+kubectl apply -f samples/ExampleKubeController/deploy/example-crd.yaml
 dotnet run --project samples/ExampleKubeController
 ```
 
@@ -76,11 +76,11 @@ At this point, you can start operating on `Example` objects in your namespace, a
 
 ```sh
 # try creating a new custom resource to see the handler in action
-kubectl apply -f samples/deploy/my-example.yaml 
+kubectl apply -f samples/ExampleKubeController/deploy/my-example.yaml 
 ```
 
 [controller]: https://kubernetes.io/docs/concepts/workloads/controllers/
 [crd]: https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/
 [csharp-client]: https://github.com/kubernetes-client/csharp
-[sample-crd]: ./samples/deploy/ExampleResource.yaml
+[sample-crd]: ./samples/ExampleKubeController/deploy/example-crd.yaml
 [sample-dir]: ./samples/ExampleKubeController/
